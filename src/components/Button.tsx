@@ -1,4 +1,4 @@
-import type { ButtonProps } from "../../types/Button";
+import type { ButtonProps } from "@/types/Button";
 
 const variantStyles: Record<string, string> = {
   filled: "bg-black hover:bg-brown-200 border-red text-body-1",
