@@ -1,4 +1,4 @@
-import tourist from "../assets/images/tourist.jpg";
+import tourist from "@/assets/images/tourist.jpg";
 
 function HeroSection() {
   return (
