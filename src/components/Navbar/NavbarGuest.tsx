@@ -7,8 +7,8 @@ function NavbarGuest() {
 
   return (
     <nav>
-      <div className="flex justify-between w-full bg-brown-100 py-[16px] px-[120px] border-b-1 border-brown-300">
-        <div>
+      <div className="flex justify-between w-full bg-brown-100 py-[16px] px-[16px] md:px-[120px] border-b-1 border-brown-300">
+        <div onClick={() => navigate("/")} className="cursor-pointer">
           <img src={logo} alt="logo" />
         </div>
         <div>
